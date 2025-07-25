@@ -5,12 +5,3 @@
     padding: 10px;
     margin: 10px;
 }
-@keyframes blink{
-    0% {color: black;} 50% {color: red}
-}
-
-blink, .blink-css {
-    animation:blink 0.8s
-    ease-in infinite
-    alternate!important;
-}
